@@ -30,7 +30,7 @@ function AddToCart (item){
 
     total = total + price;
     TotalContainer.textContent = total;
-};
+}
 
 BreadBTN.addEventListener("click", () => {
     AddToCart("bread");

@@ -14,6 +14,6 @@ function cashier(x){
         total = total + products[item];
     }
     return total;
-}
+}module.exports = {cashier}
 
 console.log("Total: $" + cashier(myCart));
