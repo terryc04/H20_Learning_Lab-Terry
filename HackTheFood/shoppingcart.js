@@ -15,7 +15,7 @@ BreadBTN.textContent = "bread";
 ItemsContainer.appendChild(BreadBTN);
 
 const OreosBTN = document.createElement("button");
-OreosBTN.textContent = "oreo";
+OreosBTN.textContent = "oreos";
 ItemsContainer.appendChild(OreosBTN);
 
 const CoffeeBTN = document.createElement("button");
